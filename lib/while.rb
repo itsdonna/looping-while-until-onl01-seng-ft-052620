@@ -1,7 +1,9 @@
 def using_while
   levitation_force = 6
-	
-  puts 'Wingardium Leviosa'
+  while levitation_force < 20
+    puts "Wingardium Leviosa"
+    levitation_force += 1
+  end
 end
 # describe "#using_while" do 
 # 	it "puts out the phrase 'Wingardium Leviosa' while the levitation force is incremented to 10" do 
